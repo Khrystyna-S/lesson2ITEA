@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #c14e4a;
+    top: -80px;
+    transition: transform 1s;
+    transform: translateY(80px);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{ 
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    color: #ede9d7;
+    font-family: futura-pt,Helvetica Neue,helvetica,arial,sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+li:hover{
+    border-bottom: 2px solid #ede9d7;
+    transition-duration: 4s;
+
+}
+
+#imgHeader{
+    margin-top: 4px;
+    margin-left: 80px;
+    min-width: 165px;
+    min-height: 73px;
+    float: left;
+    cursor: pointer;
+    background-position: 50%;
+    background-size: contain;
+    background-image: url(image/chudleighs-logo.png);
+    background-repeat: no-repeat;
+}
+
+#iconHeader{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#voice{
+    width: 22px;
+    height: 22px;
+    background-image: url(image/iconSearch.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    cursor: pointer;
+}
+
+#search{
+    width: 22px;
+    height: 22px;
+    background-image: url(image/iconVoise.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    cursor: pointer;
+}
+
+#basket{
+    width: 22px;
+    height: 22px;
+    background-image: url(image/iconBasket.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    cursor: pointer;
+}
+
+#imgBlock{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 883px;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-image: url(image/hero-home-once-upon-a-farm-1300x740.jpg); 
+}
+
+#textBlock{
+    width: 794px;
+    height: 381px;
+    background-image: url(image/bg-title-once-upon-a-farm.png);
+    margin: 40px auto; 
+}
+
+#contentBlock{
+    display: block;
+    width: 750px;
+    height: 300px;
+    background-color: rgba(81,50,28,.9);
+    color: #ede9d7;
+    text-align: center;
+    letter-spacing: .04em;
+    padding: 1.7em;
+    margin: 80px auto;
+}
+
+p{
+    font-family: futura-pt,Helvetica Neue,helvetica,arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 100;
+}
+
+#blockBtn{
+    width: 160px;
+    height: 40px;
+    margin-top: 40px;
+    color: #ede9d7;
+    text-align: center;
+    letter-spacing: .04em;
+    appearance: none;
+    background-color: #c78b56;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: futura-pt,Helvetica Neue,helvetica,arial,sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0.85em 2.55em;
+    text-transform: uppercase;
+}
